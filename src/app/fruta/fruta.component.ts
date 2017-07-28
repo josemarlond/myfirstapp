@@ -1,0 +1,14 @@
+import { Component } from '@angular/core' ;
+
+//decorador
+@Component({
+    selector: 'fruta',
+    templateUrl: './fruta.component.html',
+
+
+})
+
+export class FrutaComponent{
+    public nombre_componente = 'Componente de fruta';
+    public listado_frutas = 'Naranja, Manzana, Pera, Sandia'
+}
